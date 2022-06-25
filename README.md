@@ -53,3 +53,6 @@
 　メイン機能実装：6/25 - 7/31  
 　β版をRUNTEQ内リリース（MVP）：8/15 〆切  
 　本番リリース：8月末
+
+## **画面遷移図**
+  画面遷移図は[こちら](https://www.figma.com/file/eEGD5dJCXB75pOQTpgGKk9/Cantrol-Cosmetics?node-id=0%3A1)
