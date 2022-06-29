@@ -56,3 +56,6 @@
 
 ## **画面遷移図**
   画面遷移図は[こちら](https://www.figma.com/file/eEGD5dJCXB75pOQTpgGKk9/Cantrol-Cosmetics?node-id=0%3A1)
+
+## **画面遷移図**
+  ER図は[こちら](https://drive.google.com/file/d/1OGZSS3WBOZBOzWezrlcDVhc612qPB0_b/view?usp=sharing)
