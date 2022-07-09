@@ -27,6 +27,7 @@ gem 'net-pop', require: false
 gem 'annotate'
 gem 'bootstrap-sass'
 gem 'rails-i18n'
+gem 'enum_help'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
