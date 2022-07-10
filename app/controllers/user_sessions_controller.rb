@@ -6,7 +6,7 @@ class UserSessionsController < ApplicationController
     @user = User.find_by(email: params[:email])
     if @user && @user.authenticate(params[:password])
       session[:user_id] = @user.id
-      redirect_back_or_to signup_path, success:'ログインしました'
+      redirect_back fallback_location: signup_path, success:'ログインしました'
     else
       flash.now[:danger] = 'ログインに失敗しました'
       render :new
