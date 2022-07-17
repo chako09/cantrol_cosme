@@ -1,0 +1,26 @@
+.container{
+  background-color: #fbf2f5;
+  .bg-image{
+    .mask{
+      background-color: rgba(79, 68, 77, 0.819);
+      h4 {
+        font-weight: bold;
+      }
+    }
+  }
+  
+  .card{
+    background-color: #ECEFF1;
+      .card-body{
+        .d-flex{
+          background-color: #CFD8DC;
+        }
+        .btn{
+          background-color: #FCE4EC;
+          color:rgba(79, 68, 77, 0.819);
+          font-weight: bold;
+        }
+      }
+  }
+}
+
