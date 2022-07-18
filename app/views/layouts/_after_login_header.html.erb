@@ -1,0 +1,44 @@
+<%= stylesheet_link_tag 'header' %>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <%= link_to "Cantrol Cosme", root_path %>
+    </ul>
+    <ul class="navbar-nav ms-auto">
+      <!-- Dropdown -->
+      <li class="nav-item dropdown me-3 me-lg-1">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bars fa-lg"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+          <li>
+            <%= link_to "化粧品登録", "#", class:"dropdown-item" %>
+          </li>
+          <li>
+            <%= link_to "化粧品一覧", "#", class:"dropdown-item" %>
+          </li>
+          <li>
+            <%= link_to "化粧品道具登録", "#", class:"dropdown-item" %>
+          </li>
+          <li>
+            <%= link_to "通知設定", "#", class:"dropdown-item" %>
+          </li>
+          <li>
+            <%= link_to "カレンダー", "#", class:"dropdown-item" %>
+          </li>
+          <li>
+            <%= link_to "ログアウト", "#", class:"dropdown-item" %>
+          </li>          
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>

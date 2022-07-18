@@ -18,6 +18,17 @@
   </head>
 
   <body>
+    <header class="sticky-top">
+    <% if request.path == '/' %>
+      <%= render partial: "layouts/before_login_header" %>
+    <% elsif request.path == "/signup" %>
+      <%= render partial: "layouts/before_login_header" %>
+    <% elsif request.path == "/login" %>
+      <%= render partial: "layouts/before_signup_header" %>
+    <% else %>
+      <%= render partial: "layouts/after_login_header" %>
+    <% end %>
+    </header>
     <%= yield %>
   </body>
 </html>
